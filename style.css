@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 36, 36);
+}
+nav{
+    background-color: rgb(255, 72, 0);
+    margin-top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 120px;
+}
+nav ul li a:hover{
+    color:silver;
+    text-shadow:  2px 2px 2px violet;
+    box-shadow:inset 0px 0px 5px 2px white ;
+    padding-left:17px ;
+    transition: 0.5s;
+    display: block;
+}
+nav ul{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px; 
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: rgb(37, 36, 36);
+    color: silver;
+}
+nav ul  ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 72, 0);
+    width: 150px;
+}
+nav ul ul li{
+    display: list-item;
+    list-style-type: none; 
+    margin: inherit;
+    color: white;
+    padding-left: 50px;
+}
+nav ul ul li :hover{
+    text-shadow: none;
+    box-shadow: none;
+}
+nav li:hover > ul{
+    display: block;
+}
+nav ul ul ul{
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+h1{
+    font-weight: italic ;
+    font-size: 43px;
+    color: white;
+    font-family:Georgia;
+    
+}
+p{
+    color: white;
+    margin-top: 20px;
+}
+   
+
+   
+   
+    
+   
+    
